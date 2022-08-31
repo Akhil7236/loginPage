@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(45deg,red,white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+.login_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+.col_1 , .col_2{
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.col_1 img{
+    width: 100%;
+    display: block;
+}
+.col_2{
+    background-color: rgb(158, 196, 235);
+    padding: 40px 8%;
+    min-width: 200px;
+}
+.col_2 h2{
+    font-weight: 600;
+}
+.col_2 span{
+    font-size: 12px;
+}
+.google-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid rgb(240, 8, 8);   /*create border around tittle and firfoxpng*/
+    text-decoration: none; /*removing underline  title*/
+    font-size:14px ;
+    margin: 16px;
+}
+.google-link img{
+    width: 20px;
+}
+.col_2 h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputfield{
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid rgb(240, 8, 8); 
+    display: block;
+    width: 100%;
+}
+form label{
+    font-weight: 500;
+    font-size: 12px;
+}
+.chechbox{
+    margin-top: 5px;
+}
+.col_2 form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid rgb(240, 8, 8); 
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background: rgb(240, 8, 8);
+    cursor: pointer;
+    /* color: rgb(199, 89, 89); */
+    
+}
